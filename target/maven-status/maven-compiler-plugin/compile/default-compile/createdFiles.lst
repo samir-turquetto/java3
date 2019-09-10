@@ -1,0 +1,5 @@
+br\com\caelum\vraptor\controller\PessoaController.class
+br\com\caelum\vraptor\model\Pessoa.class
+br\com\caelum\vraptor\model\Pessoa_.class
+br\com\caelum\vraptor\dao\impl\PessoaDaoImpl.class
+br\com\caelum\vraptor\dao\PessoaDao.class
