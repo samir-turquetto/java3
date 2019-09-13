@@ -31,12 +31,12 @@ public class PessoaDaoImpl implements PessoaDao {
 
     @Override
     public void remove(Pessoa pessoa) {
-        em.remove(em.merge(pessoa));
+        em.remove(pessoa);
         em.close();
     }
 
     @Override
-    public Pessoa buscaPorId(Long id) {
+    public Pessoa buscaPorId(Long id) {        
         return em.find(Pessoa.class, id);
     }
 
