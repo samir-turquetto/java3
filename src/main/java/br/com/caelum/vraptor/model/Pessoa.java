@@ -13,6 +13,16 @@ public class Pessoa implements Serializable{
     private Long id;
     
     private String nome;
+    
+    private Double salarioBruto;
+
+    public Double getSalarioBruto() {
+        return salarioBruto;
+    }
+
+    public void setSalarioBruto(Double salarioBruto) {
+        this.salarioBruto = salarioBruto;
+    }
 
     public Long getId() {
         return id;
